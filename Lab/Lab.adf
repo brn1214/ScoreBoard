@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Lab
+[Library]
+Lab=\\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\Lab\Lab.lib
+[$LibMap$]
+Lab=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/scoreboard.sv=-1
+/transaction.sv=-1
+/testbench.sv=-1
+/inv.sv=-1
+/interface.sv=-1
+/generator.sv=-1
+/env.sv=-1
+/cfg.sv=-1
+/test.sv=-1
+/monitor.sv=-1
+/driver.sv=-1
+[Files.Data]
+.\src\scoreboard.sv=SystemVerilog Source Code
+.\src\transaction.sv=SystemVerilog Source Code
+.\src\testbench.sv=SystemVerilog Source Code
+.\src\inv.sv=SystemVerilog Source Code
+.\src\interface.sv=SystemVerilog Source Code
+.\src\generator.sv=SystemVerilog Source Code
+.\src\env.sv=SystemVerilog Source Code
+.\src\cfg.sv=SystemVerilog Source Code
+.\src\test.sv=SystemVerilog Source Code
+.\src\monitor.sv=SystemVerilog Source Code
+.\src\driver.sv=SystemVerilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

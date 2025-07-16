@@ -1,0 +1,11 @@
+i<>.\src\scoreboard.sv
+i<>.\src\transaction.sv
+i<>.\src\testbench.sv
+i<>.\src\inv.sv
+i<>.\src\interface.sv
+i<>.\src\generator.sv
+i<>.\src\env.sv
+i<>.\src\cfg.sv
+i<>.\src\test.sv
+i<>.\src\monitor.sv
+i<>.\src\driver.sv

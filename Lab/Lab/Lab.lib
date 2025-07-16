@@ -1,0 +1,211 @@
+timestamp=1706257966957
+
+[~A]
+LastVerilogToplevel=testbench
+ModifyID=46
+Version=74
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/cfg.sv=0*134993*135364
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/driver.sv=0*217769*218383
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/generator.sv=0*193053*193622
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/interface.sv=0*188250*188659
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/inv.sv=0*249456*249939
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/monitor.sv=0*198852*199451
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/scoreboard.sv=0*233460*234366
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/testbench.sv=0*260313*262595
+\\Mac/Home/Documents/Labos/Verificacion/Lab1/Lab/src/transaction.sv=0*190357*190752
+
+[~MFT]
+0=33|0Lab.mgf|262595|135568
+1=24|1Lab.mgf|1288042|1179352
+3=48|3Lab.mgf|1357236|1232363
+
+[$root]
+A/$root=22|||1*1224756
+BinW64/$root=3*1286784
+SLP=3*1286899
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216e9fd3c2e4cd4aab8ec0066cce3d39dda
+
+[\std::mailbox#(testbench::transaction) \]
+A/\std::mailbox#(testbench::transaction) \=22|||1*1241400
+AICT=436802039393024
+BinW64/\std::mailbox#(testbench::transaction) \=3*1302838
+CLI=0*253221
+SLP=3*1304723
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1e719b6ecd2368499b5e157e46e8cd7096128ba5bd53961826fa1e5548e8a06f93592a3c4a22bec03f9050aaec215ff39890aa5b4130e6717d9f7888efb33836a8c27e34cba13150861e77ec4d09ee1f
+
+[\std::mailbox#(transaction) \]
+A/\std::mailbox#(transaction) \=22|||1*1139553
+AICT=436801966224128
+BinW64/\std::mailbox#(transaction) \=3*1196982
+CLI=0*231949
+SLP=3*1198854
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1e719b6ecd2368499b5e157e46e8cd700c31c31c31c4a3840d1d4de4df34dafee17464f1a94737b4bd0b2895bf24c498c48008559c52f05e918fbc9a3f4aa622
+
+[\testbench cfg \]
+A/\testbench cfg \=22|../src/cfg.sv|1|1*1228788
+AICT=436802039384320
+BinW64/\testbench cfg \=3*1288818
+CLI=0*251859
+R=../src/cfg.sv|1
+SLP=3*1292421
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7b7283c36a3a43f0a0de764d89a8bb487dcc7ad9afb2030299eddc9c4280788c23d71a9ca561b7b2509e1889ff39e584
+
+[\testbench driver \]
+A/\testbench driver \=22|../src/driver.sv|1|1*1245378
+AICT=436802039386624
+BinW64/\testbench driver \=3*1305967
+CLI=0*254280
+R=../src/driver.sv|1
+SLP=3*1310199
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|da47741091d05a41ffe007365b81efc90e5391da4ea8f2ef12be604b94e758bc70ea77c4d3e14a8d27859abaaca25b35
+
+[\testbench env \]
+A/\testbench env \=22|../src/env.sv|1|1*1276237
+AICT=436802039396608
+BinW64/\testbench env \=3*1340501
+CLI=0*258715
+R=../src/env.sv|1
+SLP=3*1346848
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b2e62ccd6cdf248b960ef467e071af2bef7e88034796f7f4096500458bfc47728b36a0d9e729595c8579aecf308b1e81
+
+[\testbench generator \]
+A/\testbench generator \=22|../src/generator.sv|3|1*1260337
+AICT=436802039395328
+BinW64/\testbench generator \=3*1322522
+CLI=0*256410
+R=../src/generator.sv|3
+SLP=3*1326648
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4707e985f80cc2822eae4097292931b2c14ab8989f04ab84bc3cb28bd52da3100bffd749bb220cf8edc225362a77d4d7
+
+[\testbench monitor \]
+A/\testbench monitor \=22|../src/monitor.sv|3|1*1252839
+AICT=436802039394816
+BinW64/\testbench monitor \=3*1314153
+CLI=0*255349
+R=../src/monitor.sv|3
+SLP=3*1318458
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9cd0ee87f373b455b416328a696e0cbe6bf2fdb35190bdf2b62831a120e5de0396f8e4a3748b596860c99965eb07407d
+
+[\testbench scoreboard \]
+A/\testbench scoreboard \=22|../src/scoreboard.sv|1|1*1267928
+AICT=436802039395840
+BinW64/\testbench scoreboard \=3*1330873
+CLI=0*257519
+R=../src/scoreboard.sv|1
+SLP=3*1335933
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|63ffbb71f844194b0ca34a9f0e0b30600c550a8a9fa2c752d7fbee411e49b2e426527262ddaa47cb266f3a3c4d9b973a368e4e213974b6dee4cd5ecd9238faae
+
+[\testbench test \]
+A/\testbench test \=22|../src/test.sv|1|1*1288042
+AICT=436802039397376
+BinW64/\testbench test \=3*1352698
+CLI=0*259875
+R=../src/test.sv|1
+SLP=3*1357236
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e8c63cac1a936a272d46de902a515c28a5b0fc458c476f78775bc54737f3411925eb841d215eab97f8a3774d84e7247b
+
+[\testbench transaction \]
+A/\testbench transaction \=22|../src/transaction.sv|9|1*1235003
+AICT=436802039386368
+BinW64/\testbench transaction \=3*1296121
+CLI=0*252810
+R=../src/transaction.sv|9
+SLP=3*1299379
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|beb26cd0f9c0cf390207530c2c136ecfc5fa42dec006892d0e1217b74f40be7fbf27d3090d6c2eeec6e2c876aebcd7ead5d060ac1e1f062a0d534b1ce9ecb6d1
+
+[cfg]
+A/cfg=22|../src/cfg.sv|1|1*671445
+AICT=436720792623104
+BinW64/cfg=3*703815
+CLI=0*134629
+R=../src/cfg.sv|1
+SLP=3*707409
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|90d2a4758d6919b9e257b7d177ea648b4f1061f1973463394afc753040b58d32
+
+[driver]
+A/driver=22|../src/driver.sv|1|1*1061237
+AICT=436801952629248
+BinW64/driver=3*1113255
+CLI=0*217346
+R=../src/driver.sv|1
+SLP=3*1117693
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|32a8809e0c82d5e52151c5a0d1b53825092c6d4ab2565f5abdb2eca2a850e6ec
+
+[generator]
+A/generator=22|../src/generator.sv|3|1*944900
+AICT=436801833349632
+BinW64/generator=3*988487
+CLI=0*192639
+R=../src/generator.sv|3
+SLP=3*992816
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578ef238111817e4367b90836eef585fb739d
+
+[inv]
+A/inv=22|../src/inv.sv|1|1*1223756
+BinW64/inv=3*1285996
+R=../src/inv.sv|1
+SLP=3*1286552
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0cefa28e867eb48f179134a9e8caa1e46b3455b0f52561216d7a5557bd41f01a
+
+[inv_if]
+A/inv_if=22|../src/interface.sv|10|1*1225130
+BinW64/inv_if=3*1286967
+R=../src/interface.sv|10
+SLP=3*1287206
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f36a9593dd0e31c82e5f63543823aefbbb19ff0b2e4569eda4204dbc40899ac6
+
+[monitor]
+A/monitor=22|../src/monitor.sv|3|1*967136
+AICT=436801864202240
+BinW64/monitor=3*1012535
+CLI=0*198436
+R=../src/monitor.sv|3
+SLP=3*1017049
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973a4161169645615c911daee41e748f9ccd
+
+[scoreboard]
+A/scoreboard=22|../src/scoreboard.sv|1|1*1143311
+AICT=436801966215168
+BinW64/scoreboard=3*1200077
+CLI=0*232996
+R=../src/scoreboard.sv|1
+SLP=3*1205339
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|cb8490c56fdb537d2557a00a58b17e11d8626a3683e7935cfb3d638038a6804110eed92edd6672a700241386b19fac54
+
+[testbench]
+A/testbench=22|../src/testbench.sv|3|1*1226522
+BinW64/testbench=3*1287301
+R=../src/testbench.sv|3
+SLP=3*1288147
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d79130a3d0e73e57b96e725f5a15eb62d71fd
+
+[transaction]
+A/transaction=22|../src/transaction.sv|9|1*934662
+AICT=436801788640256
+BinW64/transaction=3*978098
+CLI=0*189973
+R=../src/transaction.sv|9
+SLP=3*981560
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e7c58dcfddb8de4c8440dd51a2d497d1fcb4642d0ac36a420143c757ad4eab6a7a190e275956ada9ad23b27f653cb079
+
+[~U]
+$root=12|0*250511|
+\std::mailbox#(testbench::transaction) \=12|||0x10030000
+\std::mailbox#(transaction) \=12|||0x10030000
+\testbench cfg \=12|0*251310||0x30000
+\testbench driver \=12|0*253655||0x30000
+\testbench env \=12|0*258010||0x30000
+\testbench generator \=12|0*255793||0x30000
+\testbench monitor \=12|0*254730||0x30000
+\testbench scoreboard \=12|0*256851||0x30000
+\testbench test \=12|0*259274||0x30000
+\testbench transaction \=12|0*252250||0x30000
+cfg=12|0*134103||0x30000
+driver=12|0*216748||0x30000
+generator=12|0*192050||0x30000
+inv=12|0*249251|
+inv_if=12|0*250837||0x80000
+monitor=12|0*197845||0x30000
+scoreboard=12|0*232357||0x30000
+testbench=12|0*251116||0x10
+transaction=12|0*189435||0x30000

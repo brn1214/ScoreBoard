@@ -1,0 +1,2596 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 1.5 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  21:44, domingo, 21 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.7 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  16:45, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  17:05, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  17:39, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  18:29, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/generator.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5594 kB (elbread=459 elab2=4968 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  18:32, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: genera    T: 0
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/generator.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5594 kB (elbread=459 elab2=4968 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  18:37, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/driver.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run 100 ns
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/driver.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5594 kB (elbread=459 elab2=4968 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  19:00, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  1  T: 0
+# KERNEL: genera  0  T: 0
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 70
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 370
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 450
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 570
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 590
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 730
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 950
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1230
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1310
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1350
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1890
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1950
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/generator.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/cfg.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/driver.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  19:23, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  19:24, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 30
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 50
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 70
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 90
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 110
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 130
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 150
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 170
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 190
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 210
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 230
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 250
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 270
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 290
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 310
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 330
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 350
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 370
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 390
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 410
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 430
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 450
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 470
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 490
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 510
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 530
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 550
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 570
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 590
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 610
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 630
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 650
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 670
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 690
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 710
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 730
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 750
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 770
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 790
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 810
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 830
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 850
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 870
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 890
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 910
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 930
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 950
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 970
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 990
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1010
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1030
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1050
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1070
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1090
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1110
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1130
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1150
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1170
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1190
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1210
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1230
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1250
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1270
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1290
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1310
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1330
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1350
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1370
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1390
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1410
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1430
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1450
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1470
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1490
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1510
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1530
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1550
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1570
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1590
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1610
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1630
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1650
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1670
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1690
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1710
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1730
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1750
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1770
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1790
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1810
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1830
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1850
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1870
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1890
+# KERNEL: ERROR: Real: 1 != Expected: 0, Time: 1910
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1930
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1950
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1970
+# KERNEL: ERROR: Real: 0 != Expected: 1, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  19:25, lunes, 22 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.85%) signals in SLP and 6 (1.70%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 1.7 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5593 kB (elbread=459 elab2=4967 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  11:10, viernes, 26 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 50
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 90
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 210
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 250
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 390
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 430
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 510
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 670
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 710
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1010
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1030
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1050
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1070
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1110
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1170
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1190
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1210
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1230
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1250
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1270
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1350
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1390
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1490
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1510
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1630
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1790
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1810
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1830
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1890
+# KERNEL: GOOD: Real: 1 == Expected: 1, Time: 1910
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1970
+# KERNEL: GOOD: Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#51_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/transaction.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/interface.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/inv.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 inv.sv : (4, 20): Syntax error. Unexpected token: ;.
+# Error: VCP2000 inv.sv : (6, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/inv.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/interface.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/transaction.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/generator.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/driver.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/monitor.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Error: VCP2000 scoreboard.sv : (58, 20): Syntax error. Unexpected token: =.
+# Error: VCP2000 scoreboard.sv : (58, 40): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 scoreboard.sv : (58, 59): Syntax error. Unexpected token: ;.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2890 scoreboard.sv : (42, 41): Unspecified argument is used for an argument that does not have a default value: X2.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Fatal Error: ELAB2_0036 Unresolved hierarchical reference to "vif.signal_in" from module "testbench.driver" (module not found).
+# ELAB2: Last instance before error: /testbench/driver
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/driver.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Info: VCP2113 Module inv_if found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Fatal Error: ELAB2_0036 Unresolved hierarchical reference to "data_out.signal_out" from module "testbench.scoreboard" (module not found).
+# ELAB2: Last instance before error: /testbench/scoreboard
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/scoreboard.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2130 Class transaction found in current working library.
+# Info: VCP2130 Class cfg found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+testbench testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 3 (0.83%) signals in SLP and 12 (3.32%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 1.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5598 kB (elbread=459 elab2=4971 kernel=166 sdf=0)
+# KERNEL: ASDB file was created in location \\Mac\Home\Documents\Labos\Verificacion\Lab1\Lab\src\wave.asdb
+#  11:28, viernes, 26 de enero de 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 30
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 50
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 70
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 90
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 110
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 130
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 150
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 170
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 190
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 210
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 230
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 250
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 270
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 290
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 310
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 330
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 350
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 370
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 390
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 410
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 430
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 450
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 470
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 490
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 510
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 530
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 550
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 570
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 590
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 610
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 630
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 650
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 670
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 690
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 710
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 730
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 750
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 770
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 790
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 810
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 830
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 850
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 870
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 890
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 910
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 930
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 950
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 970
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 990
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1010
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1030
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1050
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1070
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1090
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 1110
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 1130
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1150
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 1170
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1190
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1210
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1230
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1250
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1270
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1290
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1310
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1330
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 1350
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1370
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1390
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 1410
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1430
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1450
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1470
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 1490
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1510
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1530
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1550
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 1570
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1590
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1610
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1630
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1650
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1670
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1690
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 1710
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 1    Real: 0 == Expected: 0, Time: 1730
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1750
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 0    Real: 1 == Expected: 1, Time: 1770
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1790
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 1810
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1830
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1850
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 0    Real: 0 == Expected: 0, Time: 1870
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1890
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1910
+# KERNEL: GOOD: 	X1: 0 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1930
+# KERNEL: GOOD: 	X1: 1 X2: 0 X3: 1    Real: 0 == Expected: 0, Time: 1950
+# KERNEL: GOOD: 	X1: 0 X2: 1 X3: 0    Real: 1 == Expected: 1, Time: 1970
+# KERNEL: GOOD: 	X1: 1 X2: 1 X3: 0    Real: 0 == Expected: 0, Time: 1990
+# RUNTIME: Info: RUNTIME_0068 test.sv (29): $finish called.
+# KERNEL: Time: 1990 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#53_1@.
+# KERNEL: stopped at time: 1990 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/inv.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/inv.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work Lab $dsn/src/testbench.sv
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module inv found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Info: VCP3003 env.sv : (23, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (24, 19): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 env.sv : (25, 22): Virtual method called inside class constructor, non-virtual call will be performed.
+# Info: VCP3003 test.sv : (12, 21): Virtual method called inside class constructor, non-virtual call will be performed.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: testbench.
+# $root top modules: testbench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
